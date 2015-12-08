@@ -1,0 +1,285 @@
+
+Fox.define('views/stream/panel', ['views/record/panels/relationship', 'lib!Textcomplete'], function (Dep, Textcomplete) {
+
+    return Dep.extend({
+
+        template: 'stream/panel',
+
+        postingMode: false,
+
+        events: _.extend({
+            'focus textarea.note': function (e) {
+                this.enablePostingMode();
+            },
+            'click button.post': function () {
+                this.post();
+            },
+            'keypress textarea.note': function (e) {
+                if ((e.keyCode == 10 || e.keyCode == 13) && e.ctrlKey) {
+                    this.post();
+                } else if (e.keyCode == 9) {
+                    $text = $(e.currentTarget)
+                    if ($text.val() == '') {
+                        this.disablePostingMode();
+                    }
+                }
+            },
+            'input textarea.note': function (e) {
+                var $text = $(e.currentTarget);
+                var numberOfLines = e.currentTarget.value.split("\n").length;
+                var numberOfRows = $text.prop('rows');
+
+                if (numberOfRows < numberOfLines) {
+                    $text.prop('rows', numberOfLines);
+                } else if (numberOfRows > numberOfLines) {
+                    $text.prop('rows', numberOfLines);
+                }
+            },
+        }, Dep.prototype.events),
+
+        enablePostingMode: function () {
+            this.$el.find('.buttons-panel').removeClass('hide');
+
+            if (!this.postingMode) {
+                $('body').on('click.stream-panel', function (e) {
+                    if (!$.contains(this.$el.get(0), e.target)) {
+                        if (this.$textarea.val() == '') {
+                            var attachmentsIds = this.seed.get('attachmentsIds');
+                            if (!attachmentsIds.length) {
+                                $('body').off('click.stream-panel');
+                                this.disablePostingMode();
+                            }
+                        }
+                    }
+                }.bind(this));
+            }
+
+            this.postingMode = true;
+        },
+
+        disablePostingMode: function () {
+            this.postingMode = false;
+
+            this.$textarea.val('');
+            this.getView('attachments').empty();
+            this.$el.find('.buttons-panel').addClass('hide');
+        },
+
+        setup: function () {
+            this.title = this.translate('Stream');
+
+            this.scope = this.model.name;
+
+            this.filter = this.getStoredFilter();
+
+            this.wait(true);
+            this.getModelFactory().create('Note', function (model) {
+                this.seed = model;
+                this.createCollection(function () {
+                    this.wait(false);
+                }.bind(this));
+            }.bind(this));
+        },
+
+        createCollection: function (callback) {
+            this.getCollectionFactory().create('Note', function (collection) {
+                this.collection = collection;
+                collection.url = this.model.name + '/' + this.model.id + '/stream';
+                collection.maxSize = this.getConfig().get('recordsPerPageSmall') || 5;
+                this.setFilter(this.filter);
+
+                callback();
+            }, this);
+        },
+
+        afterRender: function () {
+            this.$textarea = this.$el.find('textarea.note');
+            this.$attachments = this.$el.find('div.attachments');
+
+            var collection = this.collection;
+
+            this.listenToOnce(collection, 'sync', function () {
+                this.createView('list', 'Stream.List', {
+                    el: this.options.el + ' > .list-container',
+                    collection: collection,
+                    model: this.model
+                }, function (view) {
+                    view.render();
+                });
+
+                setTimeout(function () {
+                    this.listenTo(this.model, 'sync', function () {
+                        collection.fetchNew();
+                    }, this);
+                }.bind(this), 500);
+
+            }, this);
+            collection.fetch();
+
+            this.$textarea.textcomplete([{
+                match: /(^|\s)@(\w*)$/,
+                index: 2,
+                search: function (term, callback) {
+                    if (term.length == 0) {
+                        callback([]);
+                        return;
+                    }
+                    $.ajax({
+                        url: 'User?orderBy=name&limit=7&q=' + term,
+
+                    }).done(function (data) {
+                        callback(data.list)
+                    });
+                },
+                template: function (mention) {
+                    return mention.name + ' <span class="text-muted">@' + mention.userName + '</span>';
+                },
+                replace: function (o) {
+                    return '$1@' + o.userName + '';
+                }
+            }]);
+
+            this.once('remove', function () {
+                if (this.$textarea.size()) {
+                    this.$textarea.textcomplete('destroy');
+                }
+            }, this);
+
+            $a = this.$el.find('.buttons-panel a.stream-post-info');
+
+            $a.popover({
+                placement: 'bottom',
+                container: 'body',
+                content: this.translate('streamPostInfo', 'messages').replace(/(\r\n|\n|\r)/gm, '<br>'),
+                trigger: 'click',
+                html: true
+            }).on('shown.bs.popover', function () {
+                $('body').one('click', function () {
+                    $a.popover('hide');
+                });
+            });
+
+            this.createView('attachments', 'Stream.Fields.AttachmentMultiple', {
+                model: this.seed,
+                mode: 'edit',
+                el: this.options.el + ' div.attachments-container',
+                defs: {
+                    name: 'attachments',
+                },
+            }, function (view) {
+                view.render();
+            });
+        },
+
+        afterPost: function () {
+            this.$el.find('textarea.note').prop('rows', 1);
+        },
+
+        post: function () {
+            var message = this.$textarea.val();
+
+            this.$textarea.prop('disabled', true);
+
+            this.getModelFactory().create('Note', function (model) {
+                if (message == '' && this.seed.get('attachmentsIds').length == 0) {
+                    this.notify('Post cannot be empty', 'error');
+                    this.$textarea.prop('disabled', false);
+                    return;
+                }
+
+                model.once('sync', function () {
+                    this.notify('Posted', 'success');
+                    this.collection.fetchNew();
+
+                    this.$textarea.prop('disabled', false);
+                    this.disablePostingMode();
+                    this.afterPost();
+                }, this);
+
+                model.set('post', message);
+                model.set('attachmentsIds', _.clone(this.seed.get('attachmentsIds')));
+                model.set('parentId', this.model.id);
+                model.set('parentType', this.model.name);
+                model.set('type', 'Post');
+
+                this.notify('Posting...');
+                model.save(null, {
+                    error: function () {
+                        this.$textarea.prop('disabled', false);
+                    }.bind(this)
+                });
+            }.bind(this));
+        },
+
+        getButtonList: function () {
+            return [];
+        },
+
+        filterList: ['all', 'posts', 'updates'],
+
+        getActionList: function () {
+            var list = [];
+            this.filterList.forEach(function (item) {
+                var selected = false;
+                if (item == 'all') {
+                    selected = !this.filter;
+                } else {
+                    selected = item === this.filter;
+                }
+                list.push({
+                    action: 'selectFilter',
+                    html: this.translate(item, 'filters', 'Note')  + '<span class="glyphicon glyphicon-ok pull-right' + (!selected ? ' hidden' : '') + '"></span>',
+                    data: {
+                        name: item
+                    }
+                });
+            }, this);
+            return list;
+        },
+
+        getStoredFilter: function () {
+            return this.getStorage().get('state', 'streamPanelFilter' + this.scope) || null;
+        },
+
+        storeFilter: function (filter) {
+            if (filter) {
+                this.getStorage().set('state', 'streamPanelFilter' + this.scope, filter);
+            } else {
+                this.getStorage().clear('state', 'streamPanelFilter' + this.scope);
+            }
+        },
+
+        setFilter: function (filter) {
+            this.collection.data.filter = null;
+            if (filter) {
+                this.collection.data.filter = filter;
+            }
+        },
+
+        actionSelectFilter: function (data) {
+            var filter = data.name;
+            var filterInternal = filter;
+            if (filter == 'all') {
+                filterInternal = false;
+            }
+            this.storeFilter(filterInternal);
+            this.setFilter(filterInternal);
+
+            this.filterList.forEach(function (item) {
+                var $el = this.$el.closest('.panel').find('[data-name="'+item+'"] span');
+                if (item === filter) {
+                    $el.removeClass('hidden');
+                } else {
+                    $el.addClass('hidden');
+                }
+            }, this);
+            this.collection.fetch();
+        },
+
+        actionRefresh: function () {
+            this.getView('list').showNewRecords();
+        },
+
+    });
+});
+

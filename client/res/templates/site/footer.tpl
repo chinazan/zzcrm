@@ -1,0 +1,1 @@
+<p class="credit small">&copy; 2015 <a href="">FoxCRM</a></p>

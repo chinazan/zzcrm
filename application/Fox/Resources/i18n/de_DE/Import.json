@@ -1,0 +1,34 @@
+{
+    "labels": {
+        "Revert Import": "Import rückgängig machen",
+        "Return to Import": "Zurück zum Import",
+        "Run Import": "Import durchführen",
+        "Back": "Zurück",
+        "Field Mapping": "Feldzuordnung",
+        "Default Values": "Standardwerte",
+        "Add Field": "Feld hinzufügen",
+        "Created": "Erstellt",
+        "Updated": "Aktualisiert",
+        "Result": "Resultat",
+        "Show records": "Datensätze zeigen",
+        "Remove Duplicates": "Duplikate entfernen",
+        "importedCount": "Importiert (Anzahl)",
+        "duplicateCount": "Duplicate (Anzahl)",
+        "updatedCount": "Aktualisiert (Anzahl)",
+        "Create Only": "Nur erstellen",
+        "Create and Update": "Erstellen und aktualisieren",
+        "Update Only": "Nur aktualisieren",
+        "Update by": "Aktualisieren durch"
+    },
+    "messages": {
+        "utf8": "Sollte UTF-8 kodiert sein",
+        "duplicatesRemoved": "Duplikate entfernt"
+    },
+    "fields": {
+        "file": "Datei",
+        "entityType": "Entitätstyp",
+        "imported": "Importierte Datensätze",
+        "duplicates": "Doppelte Datensätze",
+        "updated": "Aktualisierte Datensätze"
+    }
+}

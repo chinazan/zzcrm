@@ -1,0 +1,14 @@
+{
+    "controller": "controllers/record",
+    "views": {
+        "list": "Crm:Document.List"
+    },
+    "modalViews": {
+        "select": "Crm:Document.Modals.SelectRecords"
+    },
+    "filterList": [
+        "active",
+        "draft"
+    ],
+    "boolFilterList": ["onlyMy"]
+}

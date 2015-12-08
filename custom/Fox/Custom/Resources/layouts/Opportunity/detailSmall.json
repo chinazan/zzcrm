@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": 2
+                },
+                {
+                    "name": "account",
+                    "fullWidth": 2
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": 4
+                }
+            ],
+            [
+                {
+                    "name": "selectTemplate",
+                    "view": "views/opportunity/fields/select-template",
+                    "fullWidth": 2
+                },
+                false,
+                false
+            ]
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "fields": {
+        "status": "状态",
+        "executionTime": "执行时间"
+    }
+}

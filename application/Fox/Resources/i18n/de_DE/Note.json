@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "post": "Senden",
+        "attachments": "Anhänge"
+    },
+    "filters": {
+        "all": "Alle",
+        "posts": "Posts",
+        "updates": "Aktualisierungen"
+    }
+}

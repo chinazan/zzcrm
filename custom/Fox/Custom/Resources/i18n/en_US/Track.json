@@ -1,0 +1,12 @@
+{
+    "labels": {
+        "Create Track": "创建 客户追踪模板"
+    },
+    "fields": {
+        "accounts": "Accounts",
+        "isTemplate": "是否模板"
+    },
+    "links": {
+        "accounts": "Accounts"
+    }
+}

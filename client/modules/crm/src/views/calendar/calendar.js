@@ -1,0 +1,473 @@
+
+Fox.define('crm:views/calendar/calendar', ['view', 'lib!full-calendar'], function (Dep, FullCalendar) {
+
+    return Dep.extend({
+
+        template: 'crm:calendar/calendar',
+
+        eventAttributes: [],
+
+        colors: {
+            'Meeting': '#558BBD',
+            'Call': '#cf605d',
+            'Task': '#76BA4E',
+        },
+
+        allDayScopeList: ['Task'],
+
+        canceledStatusList: ['Not Held', 'Canceled'],
+
+        completedStatusList: ['Held', 'Completed'],
+
+        header: true,
+
+        modeList: ['month', 'agendaWeek', 'agendaDay'],
+
+        defaultMode: 'agendaWeek',
+
+        slotDuration: 30,
+
+        titleFormat: {
+            month: 'MMMM YYYY',
+            week: 'MMMM D, YYYY',
+            day: 'dddd, MMMM D, YYYY'
+        },
+
+        data: function () {
+            return {
+                mode: this.mode,
+                modeList: this.modeList,
+                header: this.header,
+            };
+        },
+
+        events: {
+            'click button[data-action="prev"]': function () {
+                this.$calendar.fullCalendar('prev');
+                this.updateDate();
+            },
+            'click button[data-action="next"]': function () {
+                this.$calendar.fullCalendar('next');
+                this.updateDate();
+            },
+            'click button[data-action="today"]': function () {
+                this.$calendar.fullCalendar('today');
+                this.updateDate();
+            },
+            'click button[data-action="mode"]': function (e) {
+                var mode = $(e.currentTarget).data('mode');
+                this.$el.find('button[data-action="mode"]').removeClass('active');
+                this.$el.find('button[data-mode="' + mode + '"]').addClass('active');
+                this.$calendar.fullCalendar('changeView', mode);
+                this.updateDate();
+                this.trigger('change:mode', mode);
+            },
+            'click [data-action="refresh"]': function (e) {
+            	this.$calendar.fullCalendar('refetchEvents');
+            }
+        },
+
+        setup: function () {
+            this.date = this.options.date || null;
+            this.mode = this.options.mode || this.defaultMode;
+            this.header = ('header' in this.options) ? this.options.header : this.header;
+            this.slotDuration = this.options.slotDuration || this.slotDuration;
+        },
+
+        updateDate: function () {
+            if (!this.header) {
+                return;
+            }
+            var view = this.$calendar.fullCalendar('getView');
+            var today = new Date();
+
+            if (view.start <= today && today < view.end) {
+                this.$el.find('button[data-action="today"]').addClass('active');
+            } else {
+                this.$el.find('button[data-action="today"]').removeClass('active');
+            }
+
+            var map = {
+                'agendaWeek': 'week',
+                'agendaDay': 'day',
+                'basicWeek': 'week',
+                'basicDay': 'day',
+            };
+
+            var viewName = map[view.name] || view.name
+
+            var title;
+
+            if (viewName == 'week') {
+                title = $.fullCalendar.formatRange(view.start, view.end, this.titleFormat[viewName], ' - ');
+            } else {
+                title = view.intervalStart.format(this.titleFormat[viewName]);
+            }
+            if (this.options.userId && this.options.userName) {
+                title += ' (' + this.options.userName + ')';
+            }
+            this.$el.find('.date-title h4 span').text(title);
+        },
+
+        convertToFcEvent: function (o) {
+            var event = {
+                title: o.name,
+                scope: o.scope,
+                id: o.scope + '-' + o.id,
+                recordId: o.id,
+                dateStart: o.dateStart,
+                dateEnd: o.dateEnd,
+                dateStartDate: o.dateStartDate,
+                dateEndDate: o.dateEndDate,
+                status: o.status
+            };
+
+            this.eventAttributes.forEach(function (attr) {
+                event[attr] = o[attr];
+            });
+            if (o.dateStart) {
+                if (!o.dateStartDate) {
+                    event.start = this.getDateTime().toMoment(o.dateStart);
+                } else {
+                    event.start = this.getDateTime().toMoment(o.dateStartDate);
+                }
+            }
+            if (o.dateEnd) {
+                if (!o.dateEndDate) {
+                    event.end = this.getDateTime().toMoment(o.dateEnd);
+                } else {
+                    event.end = this.getDateTime().toMoment(o.dateEndDate);
+                }
+            }
+            if (event.end && event.start) {
+                event.duration = event.end.unix() - event.start.unix();
+                if (event.duration < 1800) {
+                    event.end = event.start.clone().add(30, 'm');
+                }
+            }
+
+            event.allDay = false;
+
+            this.handleAllDay(event);
+
+            this.fillColor(event);
+
+            this.handleStatus(event);
+
+            return event;
+        },
+
+        fillColor: function (event) {
+            var color = this.colors[event.scope];
+            var d = event.dateEnd;
+
+            if (~this.completedStatusList.indexOf(event.status) || ~this.canceledStatusList.indexOf(event.status)) {
+            	color = this.shadeColor(color, 0.4);
+            }
+            event.color = color;
+        },
+
+        handleStatus: function (event) {
+        	if (~this.canceledStatusList.indexOf(event.status)) {
+        		event.className = 'event-canceled';
+        	}
+        },
+
+        shadeColor: function (color, percent) {
+            var f = parseInt(color.slice(1),16),t=percent<0?0:255,p=percent<0?percent*-1:percent,R=f>>16,G=f>>8&0x00FF,B=f&0x0000FF;
+            return "#"+(0x1000000+(Math.round((t-R)*p)+R)*0x10000+(Math.round((t-G)*p)+G)*0x100+(Math.round((t-B)*p)+B)).toString(16).slice(1);
+        },
+
+        handleAllDay: function (event, notInitial) {
+            if (~this.allDayScopeList.indexOf(event.scope)) {
+                event.allDay = true;
+                if (!notInitial) {
+                    if (event.end) {
+                        event.start = event.end;
+                    }
+                }
+                return;
+            }
+
+            if (!event.start || !event.end) {
+                event.allDay = true;
+                if (event.end) {
+                    event.start = event.end;
+                }
+            } else {
+                if (
+                    (event.start.format('d') != event.end.format('d') && (event.end.hours() != 0 || event.end.minutes() != 0))
+                    ||
+                    (event.end.unix() - event.start.unix() >= 86400)
+                ) {
+                    event.allDay = true;
+                    if (!notInitial) {
+                        if (event.end.hours() != 0 || event.end.minutes() != 0) {
+                            event.end.add(1, 'days');
+                        }
+                    }
+                } else {
+                    event.allDay = false;
+                }
+            }
+        },
+
+        convertToFcEvents: function (list) {
+            this.now = moment.tz(this.getDateTime().timeZone);
+
+            var events = [];
+            list.forEach(function (o) {
+                var event = this.convertToFcEvent(o);
+                events.push(event);
+            }.bind(this));
+            return events;
+        },
+
+        convertTime: function (d) {
+            var format = this.getDateTime().internalDateTimeFormat;
+            var timeZone = this.getDateTime().timeZone;
+            var string = d.format(format);
+
+            var m;
+            if (timeZone) {
+                m = moment.tz(string, format, timeZone).utc();
+            } else {
+                m = moment.utc(string, format);
+            }
+
+            return m.format(format) + ':00';
+        },
+
+        getCalculatedHeight: function () {
+            var height = $(window).height();
+            var width = $(window).width();
+            var spaceHeight = 140;
+            if (width < 768) {
+                spaceHeight = 164;
+            }
+            return $(window).height() - spaceHeight;
+        },
+
+        afterRender: function () {
+            var $calendar = this.$calendar = this.$el.find('div.calendar');
+
+            var slotDuration = '00:' + this.slotDuration + ':00';
+
+            var options = {
+                header: false,
+                axisFormat: this.getDateTime().timeFormat,
+                timeFormat: this.getDateTime().timeFormat,
+                defaultView: this.mode,
+                weekNumbers: true,
+                editable: true,
+                selectable: true,
+                selectHelper: true,
+                height: this.options.height || null,
+                firstDay: this.getPreferences().get('weekStart'),
+                slotEventOverlap: true,
+                slotDuration: slotDuration,
+                snapDuration: this.slotDuration * 60 * 1000,
+                timezone: this.getDateTime().timeZone,
+                windowResize: function () {
+                    var height = this.getCalculatedHeight();
+                    $calendar.fullCalendar('option', 'contentHeight', height);
+
+
+                }.bind(this),
+                select: function (start, end, allDay) {
+                    var dateStart = this.convertTime(start);
+                    var dateEnd = this.convertTime(end);
+
+                    var attributes = {
+                        dateStart: dateStart,
+                        dateEnd: dateEnd
+                    };
+                    if (this.options.userId) {
+                        attributes.assignedUserId = this.options.userId;
+                        attributes.assignedUserName = this.options.userName || this.options.userId;
+                    }
+
+
+                    this.notify('Loading...');
+                    this.createView('quickEdit', 'crm:views/calendar/modals/edit', {
+                        attributes: attributes
+                    }, function (view) {
+                        view.render();
+                        view.notify(false);
+                    });
+                    $calendar.fullCalendar('unselect');
+                }.bind(this),
+                eventClick: function (event) {
+                    this.notify('Loading...');
+                    this.createView('quickEdit', 'crm:views/calendar/modals/edit', {
+                        scope: event.scope,
+                        id: event.recordId
+                    }, function (view) {
+                        view.render();
+                        view.notify(false);
+                    });
+                }.bind(this),
+                viewRender: function (view, el) {
+                    var mode = view.name;
+                    var date = this.getDateTime().fromIso(this.$calendar.fullCalendar('getDate'));
+
+                    var m = moment(this.$calendar.fullCalendar('getDate'));
+                    this.trigger('view', m.format('YYYY-MM-DD'), mode);
+                }.bind(this),
+                events: function (from, to, timezone, callback) {
+                    var dateTimeFormat = this.getDateTime().internalDateTimeFormat;
+
+                    var fromStr = from.format(dateTimeFormat);
+                    var toStr = to.format(dateTimeFormat);
+
+                    from = moment.tz(fromStr, timezone);
+                    to = moment.tz(toStr, timezone);
+
+                    fromStr = from.utc().format(dateTimeFormat);
+                    toStr = to.utc().format(dateTimeFormat);
+
+                    this.fetchEvents(fromStr, toStr, callback);
+                }.bind(this),
+                eventDrop: function (event, delta, callback) {
+                    var dateStart = this.convertTime(event.start) || null;
+
+                    var dateEnd = null;
+                    if (event.duration) {
+                        dateEnd = this.convertTime(event.start.clone().add(event.duration, 's')) || null;
+                    }
+
+                    var attributes = {};
+
+                    if (event.dateStart) {
+                        event.dateStart = this.convertTime(this.getDateTime().toMoment(event.dateStart).add(delta));
+                        attributes.dateStart = event.dateStart;
+                    }
+                    if (event.dateEnd) {
+                        event.dateEnd = this.convertTime(this.getDateTime().toMoment(event.dateEnd).add(delta));
+                        attributes.dateEnd = event.dateEnd;
+                    }
+                    if (event.dateStartDate) {
+                        var d = this.getDateTime().toMoment(event.dateStartDate).add(delta);
+                        event.dateStartDate = d.format(this.getDateTime().internalDateFormat);
+                        attributes.dateStartDate = event.dateStartDate;
+                    }
+                    if (event.dateEndDate) {
+                        var d = this.getDateTime().toMoment(event.dateEndDate).add(delta);
+                        event.dateEndDate = d.format(this.getDateTime().internalDateFormat);
+                        attributes.dateEndDate = event.dateEndDate;
+                    }
+
+                    if (!event.end) {
+                        if (!~this.allDayScopeList.indexOf(event.scope)) {
+                            event.end = event.start.clone().add(event.duration, 's');
+                        }
+                    }
+
+                    event.allDay = false;
+
+                    this.handleAllDay(event, true);
+
+                    this.fillColor(event);
+
+                    this.notify('Saving...');
+                    this.getModelFactory().create(event.scope, function (model) {
+                        model.once('sync', function () {
+                            this.notify(false);
+                        }, this);
+                        model.id = event.recordId;
+                        model.save(attributes, {patch: true});
+                    }, this);
+                }.bind(this),
+                eventResize: function (event, delta, revertFunc) {
+                    var attributes = {
+                        dateEnd: this.convertTime(event.end)
+                    };
+                    event.dateEnd = attributes.dateEnd;
+                    event.duration = event.end.unix() - event.start.unix();
+
+                    this.fillColor(event);
+
+                    this.notify('Saving...');
+                    this.getModelFactory().create(event.scope, function (model) {
+                        model.once('sync', function () {
+                            this.notify(false);
+                        }.bind(this));
+                        model.id = event.recordId;
+                        model.save(attributes, {patch: true});
+                    }.bind(this));
+                }.bind(this),
+                allDayText: '',
+                firstHour: 8,
+                columnFormat: {
+                    week: 'ddd DD',
+                    day: 'ddd DD',
+                },
+                weekNumberTitle: '',
+            };
+
+            if (!this.options.height) {
+                options.contentHeight = this.getCalculatedHeight();
+            } else {
+                options.aspectRatio = 1.62;
+            }
+
+            if (this.date) {
+                options.defaultDate = moment.utc(this.date);
+            }
+
+            setTimeout(function () {
+                $calendar.fullCalendar(options);
+                this.updateDate();
+            }.bind(this), 150);
+        },
+
+        fetchEvents: function (from, to, callback) {
+            var url = 'Activities?from=' + from + '&to=' + to;
+            if (this.options.userId) {
+                url += '&userId=' + this.options.userId;
+                if (this.options.userName) {
+                    url += '&userName=' + this.options.userName;
+                }
+            }
+            $.ajax({
+                url: url,
+                success: function (data) {
+                    var events = this.convertToFcEvents(data);
+                    callback(events);
+                    this.notify(false);
+                }.bind(this)
+            });
+        },
+
+        addModel: function (model) {
+            var d = model.attributes;
+            d.scope = model.name;
+            var event = this.convertToFcEvent(d);
+            this.$calendar.fullCalendar('renderEvent', event);
+        },
+
+        updateModel: function (model) {
+            var eventId = model.name + '-' + model.id;
+
+            var events = this.$calendar.fullCalendar('clientEvents', eventId);
+            if (!events.length) return;
+
+            var event = events[0];
+
+            var d = model.attributes;
+            d.scope = model.name;
+            var data = this.convertToFcEvent(d);
+            for (var key in data) {
+                event[key] = data[key];
+            }
+
+            this.$calendar.fullCalendar('updateEvent', event);
+        },
+
+        removeModel: function (model) {
+            this.$calendar.fullCalendar('removeEvents', model.name + '-' + model.id);
+        }
+
+    });
+});
+

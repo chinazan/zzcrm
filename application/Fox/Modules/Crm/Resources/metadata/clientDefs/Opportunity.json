@@ -1,0 +1,25 @@
+{
+   "controller": "controllers/record",
+   "views":{
+      "detail":"Crm:Opportunity.Detail"
+   },
+   "sidePanels":{
+      "detail":[
+
+      ]
+   },
+   "filterList": [
+      {
+         "name":"isTemplate"
+      }
+   ],
+
+   "additionalLayouts": {
+      "detailConvert": {
+         "type": "detail"
+      },
+      "listForAccount": {
+         "type": "listSmall"
+      }
+   }
+}

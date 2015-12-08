@@ -1,0 +1,48 @@
+{
+   "controller": "controllers/record",
+   "views":{
+      "detail":"Crm:Contact.Detail"
+   },
+   "sidePanels":{
+      "detail":[
+         {
+            "name":"activities",
+            "label":"Activities",
+            "view":"Crm:Record.Panels.Activities"
+         },
+         {
+            "name":"history",
+            "label":"History",
+            "view":"Crm:Record.Panels.History"
+         },
+         {
+            "name":"tasks",
+            "label":"Tasks",
+            "view":"Crm:Record.Panels.Tasks"
+         }
+      ]
+   },
+   "relationshipPanels": {
+      "campaignLogRecords": {
+        "rowActionsView": "views/record/row-actions/empty",
+        "select": false,
+        "create": false
+      },
+      "opportunities":{
+         "layout":"listForAccount"
+      },
+      "targetLists": {
+         "create": false,
+         "rowActionsView": "views/record/row-actions/relationship-unlink-only"
+      }
+   },
+   "boolFilterList": ["onlyMy"],
+   "additionalLayouts": {
+      "detailConvert": {
+         "type": "detail"
+      },
+      "listForAccount": {
+         "type": "listSmall"
+      }
+   }
+}

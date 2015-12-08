@@ -1,0 +1,44 @@
+{
+    "controller": "controllers/email-account",
+    "recordViews": {
+        "list":"EmailAccount.Record.List",
+        "detail": "EmailAccount.Record.Detail",
+        "edit": "EmailAccount.Record.Edit"
+    },
+    "views": {
+    	"list": "EmailAccount.List"
+    },
+    "searchPanelDisabled": true,
+    "formDependency": {
+        "storeSentEmails": {
+            "map": {
+                "true" : [
+                    {
+                        "action": "show",
+                        "fields": ["sentFolder"]
+                    },
+                    {
+                        "action": "setRequired",
+                        "fields": ["sentFolder"]
+                    }
+                ]
+            },
+            "default": [
+                {
+                    "action": "hide",
+                    "fields": ["sentFolder"]
+                },
+                {
+                    "action": "setNotRequired",
+                    "fields": ["sentFolder"]
+                }
+            ]
+        }
+    },
+    "relationshipPanels": {
+        "filters": {
+            "select": false,
+            "rowActionsView": "views/record/row-actions/relationship-edit-and-remove"
+        }
+    }
+}

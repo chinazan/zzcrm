@@ -1,0 +1,45 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "userName",
+                    "fullWidth": 2
+                },
+                {
+                    "name": "agent",
+                    "fullWidth": 2
+                }
+            ],
+            [
+                {
+                    "name": "name",
+                    "fullWidth": 2
+                }
+            ],
+            [
+                {
+                    "name": "teams",
+                    "fullWidth": 2
+                },
+                {
+                    "name": "isAdmin",
+                    "fullWidth": 2
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress",
+                    "fullWidth": 2
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber",
+                    "fullWidth": 2
+                }
+            ]
+        ]
+    }
+]

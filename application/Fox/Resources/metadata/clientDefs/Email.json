@@ -1,0 +1,85 @@
+{
+   "controller": "controllers/record",
+   "model": "models/email",
+   "views":{
+      "list":"Email.List",
+      "detail":"Email.Detail"
+   },
+   "recordViews":{
+      "list":"Email.Record.List",
+      "detail":"Email.Record.Detail",
+      "edit":"Email.Record.Edit",
+      "editQuick":"Email.Record.EditQuick",
+      "detailQuick":"Email.Record.DetailQuick"
+   },
+   "modalViews": {
+      "detail": "Email.Modals.Detail"
+   },
+   "menu": {
+      "list": {
+         "buttons": [
+            {
+               "label": "Compose",
+               "action": "composeEmail",
+               "style": "danger",
+               "acl": "edit"
+            }
+         ],
+         "dropdown": [
+             {
+               "label": "Archive Email",
+               "link": "#Email/create",
+               "acl": "edit"
+             },
+             {
+               "label": "Email Accounts",
+               "link": "#EmailAccount",
+               "aclScope": "EmailAccountScope"
+             },
+             {
+               "label": "Email Templates",
+               "link": "#EmailTemplate",
+               "acl": "read",
+               "aclScope": "EmailTemplate"
+             }
+         ]
+      },
+      "detail": {
+         "buttons": [
+            {
+               "label": "Reply",
+               "action": "replyToAll",
+               "style": "danger",
+               "acl": "read"
+            }
+         ],
+         "dropdown": [
+             {
+               "label": "Reply",
+               "action": "reply",
+               "acl": "read"
+             },
+             {
+               "label": "Reply to All",
+               "action": "replyToAll",
+               "acl": "read"
+             },
+             {
+               "label": "Forward",
+               "action": "forward",
+               "acl": "read"
+             }
+         ]
+      }
+   },
+   "filterList": [
+      "inbox",
+      "sent",
+      "drafts"
+   ],
+   "defaultFilterData": {
+       "presetName": "inbox",
+       "primary": "inbox"
+   },
+   "boolFilterList": []
+}

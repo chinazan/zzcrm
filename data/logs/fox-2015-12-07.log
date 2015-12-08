@@ -1,0 +1,573 @@
+[2015-12-07 10:35:35] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:35] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:37] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:37] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:39] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:39] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:41] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:41] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:43] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:43] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:45] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:45] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:47] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:47] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:49] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:49] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:51] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:51] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:53] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:53] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:55] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:55] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:57] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:57] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:35:59] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:35:59] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:01] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:01] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:03] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:03] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:05] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:05] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:07] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:07] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:09] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:09] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:12] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:12] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:14] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:14] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:16] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:16] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:18] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:18] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:27] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:27] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:29] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:29] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:31] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:31] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:33] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:33] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:35] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:35] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:37] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:37] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:39] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:39] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:41] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:41] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:43] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:43] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:45] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:45] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:47] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:47] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:55] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:55] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:57] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:57] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:36:59] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:36:59] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:01] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:01] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:03] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:03] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:05] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:05] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:07] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:07] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:09] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:09] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:25] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:25] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:27] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:27] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:29] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:29] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:31] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:31] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:33] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:33] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:35] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:35] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:37] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:37] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:39] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:39] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:41] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:41] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:43] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:43] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:45] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:45] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:47] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:47] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:49] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:49] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:51] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:51] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:53] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:53] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:55] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:55] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:57] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:57] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:37:59] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:37:59] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:01] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:01] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:03] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:03] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:05] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:05] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:07] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:07] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:09] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:09] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:11] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:11] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:13] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:13] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:15] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:15] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:17] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:17] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:19] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:19] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:21] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:21] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:23] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:23] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:25] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:25] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:27] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:27] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 10:38:29] Fox.ERROR: API [GET]:/:controller/layout/:name, Params:Array
+(
+    [controller] => Queue
+    [name] => status
+)
+, InputData:  - Layout Queue:status is not found. [] []
+[2015-12-07 10:38:29] Fox.ERROR: Display Error: Layout Queue:status is not found., Code: 404 URL: /api/v1/Queue/layout/status [] []
+[2015-12-07 16:59:31] Fox.ALERT: Rebuild database fault: exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8001' for key 'UNIQ_268B9C9D5E237E06'' in /home/wwwroot/zhcrm/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php:699
+Stack trace:
+#0 /home/wwwroot/zhcrm/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(699): PDO->query('CREATE UNIQUE I...')
+#1 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Database/Schema/Schema.php(182): Doctrine\DBAL\Connection->executeQuery('CREATE UNIQUE I...')
+#2 /home/wwwroot/zhcrm/application/Fox/Core/DataManager.php(63): Fox\Core\Utils\Database\Schema\Schema->rebuild('Agent')
+#3 /home/wwwroot/zhcrm/application/Fox/Core/DataManager.php(32): Fox\Core\DataManager->rebuildDatabase('Agent')
+#4 /home/wwwroot/zhcrm/application/Fox/Controllers/FieldManager.php(53): Fox\Core\DataManager->rebuild('Agent')
+#5 /home/wwwroot/zhcrm/application/Fox/Core/ControllerManager.php(88): Fox\Controllers\FieldManager->actionUpdate(Array, Array, Object(Slim\Http\Request))
+#6 /home/wwwroot/zhcrm/application/Fox/Core/Application.php(195): Fox\Core\ControllerManager->process('FieldManager', 'update', Array, '{"name":"name",...', Object(Slim\Http\Request))
+#7 [internal function]: Fox\Core\Application->Fox\Core\{closure}(NULL)
+#8 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Slim.php(1175): call_user_func(Object(Closure), NULL)
+#9 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Slim.php(1315): Slim\Slim->applyHook('slim.before.dis...')
+#10 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#11 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Auth.php(74): Slim\Middleware\MethodOverride->call()
+#13 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Slim.php(24): Fox\Core\Utils\Api\Auth->call()
+#14 /home/wwwroot/zhcrm/application/Fox/Core/Application.php(62): Fox\Core\Utils\Api\Slim->run()
+#15 /home/wwwroot/zhcrm/api/v1/index.php(5): Fox\Core\Application->run()
+#16 {main}
+
+Next exception 'Doctrine\DBAL\DBALException' with message 'An exception occurred while executing 'CREATE UNIQUE INDEX UNIQ_268B9C9D5E237E06 ON `agent` (name)':
+
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8001' for key 'UNIQ_268B9C9D5E237E06'' in /home/wwwroot/zhcrm/vendor/doctrine/dbal/lib/Doctrine/DBAL/DBALException.php:91
+Stack trace:
+#0 /home/wwwroot/zhcrm/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(702): Doctrine\DBAL\DBALException::driverExceptionDuringQuery(Object(PDOException), 'CREATE UNIQUE I...', Array)
+#1 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Database/Schema/Schema.php(182): Doctrine\DBAL\Connection->executeQuery('CREATE UNIQUE I...')
+#2 /home/wwwroot/zhcrm/application/Fox/Core/DataManager.php(63): Fox\Core\Utils\Database\Schema\Schema->rebuild('Agent')
+#3 /home/wwwroot/zhcrm/application/Fox/Core/DataManager.php(32): Fox\Core\DataManager->rebuildDatabase('Agent')
+#4 /home/wwwroot/zhcrm/application/Fox/Controllers/FieldManager.php(53): Fox\Core\DataManager->rebuild('Agent')
+#5 /home/wwwroot/zhcrm/application/Fox/Core/ControllerManager.php(88): Fox\Controllers\FieldManager->actionUpdate(Array, Array, Object(Slim\Http\Request))
+#6 /home/wwwroot/zhcrm/application/Fox/Core/Application.php(195): Fox\Core\ControllerManager->process('FieldManager', 'update', Array, '{"name":"name",...', Object(Slim\Http\Request))
+#7 [internal function]: Fox\Core\Application->Fox\Core\{closure}(NULL)
+#8 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Slim.php(1175): call_user_func(Object(Closure), NULL)
+#9 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Slim.php(1315): Slim\Slim->applyHook('slim.before.dis...')
+#10 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#11 /home/wwwroot/zhcrm/vendor/slim/slim/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Auth.php(74): Slim\Middleware\MethodOverride->call()
+#13 /home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Slim.php(24): Fox\Core\Utils\Api\Auth->call()
+#14 /home/wwwroot/zhcrm/application/Fox/Core/Application.php(62): Fox\Core\Utils\Api\Slim->run()
+#15 /home/wwwroot/zhcrm/api/v1/index.php(5): Fox\Core\Application->run()
+#16 {main} [] []
+[2015-12-07 16:59:31] Fox.ERROR: API [PUT]:/Admin/fieldManager/:scope/:name, Params:Array
+(
+    [scope] => Agent
+    [name] => name
+)
+, InputData: {"name":"name","label":"姓名","type":"varchar","unique":true,"required":true,"audited":true,"default":"","maxLength":null,"trim":false} - Error while rebuilding database. See log file for details. [] []
+[2015-12-07 16:59:31] Fox.ERROR: Display Error: Error while rebuilding database. See log file for details., Code: 500 URL: /api/v1/Admin/fieldManager/Agent/name [] []
+[2015-12-07 17:10:04] Fox.ERROR: E_RECOVERABLE_ERROR: Argument 1 passed to Fox\Custom\Services\Agent::getDuplicateWhereClause() must be an instance of Fox\Custom\Services\Entity, instance of Fox\Custom\Entities\Agent given, called in /home/wwwroot/zhcrm/application/Fox/Services/Record.php on line 964 and defined {"file":"/home/wwwroot/zhcrm/custom/Fox/Custom/Services/Agent.php","line":7} []
+[2015-12-07 17:10:04] Fox.ERROR: API [POST]:/:controller, Params:Array
+(
+    [controller] => Agent
+)
+, InputData: {"assignedUserId":"1","assignedUserName":"Admin","name":"8001","userName":null,"userId":null,"teamsIds":[],"teamsNames":{}} - {"reason":"Duplicate","data":{"56653aa336a35c182":"8001","56654a1bd73c36758":"8001","56654ad66964e405f":"8001"}} [] []
+[2015-12-07 17:10:04] Fox.ERROR: Display Error: {"reason":"Duplicate","data":{"56653aa336a35c182":"8001","56654a1bd73c36758":"8001","56654ad66964e405f":"8001"}}, Code: 409 URL: /api/v1/Agent [] []

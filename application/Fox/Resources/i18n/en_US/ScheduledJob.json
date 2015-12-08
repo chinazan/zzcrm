@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "name": "名字",
+        "status": "状态",
+        "job": "工作",
+        "scheduling": "线程调度 (crontab 符号)"
+    },
+    "links": {
+        "log": "日志"
+    },
+    "labels": {
+        "Create ScheduledJob": "创建计划工作"
+    },
+    "options": {
+        "job": {
+            "Cleanup": "清除"
+        },
+        "cronSetup": {
+            "linux": "Note: Add this line to the crontab file to run Fox Scheduled Jobs:",
+            "mac": "Note: Add this line to the crontab file to run Fox Scheduled Jobs:",
+            "windows": "Note: Create a batch file with the following commands to run Fox Scheduled Jobs using Windows Scheduled Tasks:",
+            "default": "Note: Add this command to Cron Job (Scheduled Task):"
+        },
+        "status": {
+            "Active": "活跃",
+            "Inactive": "不活跃"
+        }
+    }
+}

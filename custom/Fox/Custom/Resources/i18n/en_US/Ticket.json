@@ -1,0 +1,11 @@
+{
+    "labels": {
+        "Create Ticket": "创建 工单"
+    },
+    "fields": {
+        "accounts": "客户"
+    },
+    "links": {
+        "accounts": "客户"
+    }
+}

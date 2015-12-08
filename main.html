@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>FoxCRM</title>
+        <script type="text/javascript" src="client/fox.min.js?r=1443614859674"></script>
+        <link href="{{stylesheet}}?r=1443614859674" rel="stylesheet" id='main-stylesheet'>
+        <link href="client/css/font-awesome.min.css" rel="stylesheet">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="FoxCRM!">
+
+        <link rel="icon" href="client/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="client/img/favicon.ico" type="image/x-icon">
+        <script type="text/javascript">
+            $(function () {
+                Fox.require('app', function (App) {
+                    var app = new App({
+                        useCache: {{useCache}},
+                        cacheTimestamp: {{cacheTimestamp}}
+                    }, function (app) {
+                        {{runScript}}
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container content"></div>
+        <footer>
+            <p class="credit small">&copy; 2015 <a href="" title="Powered by FoxCRM" alt="FoxCRM">FoxCRM</a></p>
+        </footer>
+    </body>
+</html>

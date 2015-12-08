@@ -1,0 +1,30 @@
+{
+   "controller": "controllers/record",
+   "views":{
+      "detail":"Crm:Account.Detail"
+   },
+   "sidePanels":{
+      "detail":[
+
+      ]
+   },
+   "relationshipPanels":{
+      "contacts":{
+         "layout":"listForAccount"
+      },
+      "opportunities":{
+         "layout":"listForAccount"
+      },
+      "campaignLogRecords": {
+        "rowActionsView": "Record.RowActions.Empty",
+        "select": false,
+        "create": false
+      }
+   },
+   "boolFilterList": ["onlyMy"],
+   "additionalLayouts": {
+      "detailConvert": {
+         "type": "detail"
+      }
+   }
+}

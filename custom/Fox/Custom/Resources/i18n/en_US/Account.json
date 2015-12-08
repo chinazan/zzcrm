@@ -1,0 +1,19 @@
+{
+    "labels": {
+        "Create Account": "创建 客户"
+    },
+    "fields": {
+        "description": "备注",
+        "billingAddress": "联系地址",
+        "opportunities": "客户追踪",
+        "cdrs": "Cdrs",
+        "tickets": "工单",
+        "tracks": "Tracks"
+    },
+    "links": {
+        "opportunities": "客户追踪",
+        "cdrs": "Cdrs",
+        "tickets": "工单",
+        "tracks": "Tracks"
+    }
+}

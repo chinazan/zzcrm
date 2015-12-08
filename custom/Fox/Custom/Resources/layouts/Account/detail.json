@@ -1,0 +1,65 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": 4
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber",
+                    "fullWidth": 3
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "website",
+                    "fullWidth": 2
+                },
+                false
+            ],
+            [
+                {
+                    "name": "address",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Details",
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": 4
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "billingAddress",
+                    "fullWidth": 2
+                },
+                {
+                    "name": "campaign"
+                }
+            ]
+        ]
+    }
+]

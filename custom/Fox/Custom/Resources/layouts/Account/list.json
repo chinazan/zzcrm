@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "website",
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "align": "left"
+    },
+    {
+        "name": "address",
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "align": "left"
+    }
+]

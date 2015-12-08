@@ -1,0 +1,113 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "website": {
+            "type": "url"
+        },
+        "emailAddress": {
+            "type": "email"
+        },
+        "phoneNumber": {
+            "type": "phone",
+            "typeList": ["Office", "Fax", "Other"],
+            "defaultType": "Office"
+        },
+        "type": {
+            "type": "enum",
+            "options": ["", "Customer", "Investor", "Partner", "Reseller"],
+            "default": ""
+        },
+        "industry": {
+            "type": "enum",
+            "options": [
+                "",
+                "Advertising"
+            ],
+            "default": "",
+            "isSorted": true
+        },
+        "billingAddress": {
+            "type": "varchar"
+        },
+        "description": {
+            "type": "text"
+        },
+        "campaign": {
+            "type": "link",
+            "layoutListDisabled": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link"
+        },
+        "teams": {
+            "type": "linkMultiple"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "opportunities": {
+            "type": "hasMany",
+            "entity": "Opportunity",
+            "foreign": "account"
+        },
+        "campaign": {
+            "type": "belongsTo",
+            "entity": "Campaign",
+            "foreign": "accounts",
+            "noJoin": true
+        },
+        "campaignLogRecords": {
+            "type": "hasChildren",
+            "entity": "CampaignLogRecord",
+            "foreign": "parent"
+        }
+    },
+    "collection": {
+        "sortBy": "name",
+        "asc": true
+    },
+    "indexes": {
+        "name": {
+            "columns": ["name", "deleted"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        }
+    }
+}

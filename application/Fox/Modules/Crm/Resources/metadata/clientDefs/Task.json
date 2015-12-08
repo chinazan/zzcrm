@@ -1,0 +1,44 @@
+{
+   "controller": "controllers/record",
+   "recordViews":{
+      "list": "Crm:Task.Record.List",
+      "detail": "Crm:Task.Record.Detail"
+   },
+   "views": {
+      "list": "Crm:Task.List",
+      "detail": "Crm:Task.Detail"
+   },
+   "formDependency": {
+      "status": {
+         "map": {
+            "Completed": [
+               {
+                  "action": "show",
+                  "fields": ["dateCompleted"]
+               }
+            ]
+         },
+         "default": [
+            {
+               "action": "hide",
+               "fields": ["dateCompleted"]
+            }
+         ]
+      }
+   },
+   "filterList": [
+      "actual",
+      {
+         "name":"completed",
+         "style": "success"
+      },
+      {
+         "name":"todays"
+      },
+      {
+         "name":"overdue",
+         "style": "danger"
+      }
+   ],
+   "boolFilterList": ["onlyMy"]
+}

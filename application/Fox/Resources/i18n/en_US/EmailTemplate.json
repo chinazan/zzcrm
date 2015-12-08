@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "name": "名字",
+        "status": "状态",
+        "isHtml": "Is Html",
+        "body": "Body",
+        "subject": "主题",
+        "attachments": "附件",
+        "insertField": ""
+    },
+    "links": {
+    },
+    "labels": {
+        "Create EmailTemplate": "创建邮件模版"
+    }
+}

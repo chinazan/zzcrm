@@ -1,0 +1,22 @@
+{
+    "labels": {
+        "Create Agent": "创建 分机"
+    },
+    "fields": {
+        "status": "状态",
+        "user": "用户",
+        "is_login": "is_login",
+        "is_assigned": "is_assigned",
+        "name": "姓名"
+    },
+    "options": {
+        "status": {
+            "_empty_": "",
+            "Break": "Break",
+            "Available": "Available"
+        }
+    },
+    "links": {
+        "user": "用户"
+    }
+}

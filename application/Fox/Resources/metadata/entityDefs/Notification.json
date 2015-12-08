@@ -1,0 +1,51 @@
+{
+    "fields": {
+        "number": {
+            "type": "autoincrement",
+            "index": true
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "noteData": {
+            "type": "jsonObject",
+            "notStorable": true
+        },
+        "type": {
+            "type": "varchar"
+        },
+        "read": {
+            "type": "bool"
+        },
+        "user": {
+            "type": "link"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "message": {
+            "type": "text"
+        }
+    },
+    "links": {
+        "user": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "sortBy": "number",
+        "asc": false
+    },
+    "indexes": {
+        "createdAt": {
+            "type": "index",
+            "columns": ["createdAt"]
+        },
+        "user": {
+            "type": "index",
+            "columns": ["userId", "createdAt"]
+        }
+    }
+}

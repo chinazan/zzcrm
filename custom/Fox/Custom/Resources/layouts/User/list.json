@@ -1,0 +1,20 @@
+[
+    {
+        "name": "name",
+        "width": 30,
+        "link": true
+    },
+    {
+        "name": "agent"
+    },
+    {
+        "name": "userName"
+    },
+    {
+        "name": "emailAddress"
+    },
+    {
+        "name": "isActive",
+        "width": 10
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "labels": {
+        "Create Opportunity": "创建 客户追踪"
+    },
+    "fields": {
+        "account": "客户"
+    },
+    "links": {
+        "account": "客户"
+    }
+}

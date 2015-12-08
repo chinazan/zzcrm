@@ -1,0 +1,77 @@
+{
+   "controller": "crm:controllers/lead",
+   "views":{
+      "detail":"Crm:Lead.Detail"
+   },
+   "recordViews":{
+      "detail":"Crm:Lead.Record.Detail"
+   },
+   "formDependency": {
+      "status": {
+         "map": {
+            "Converted" : [
+               {
+                  "action": "show",
+                  "panels": ["convertedTo"]
+               }
+            ]
+         },
+         "default": [
+            {
+               "action": "hide",
+               "panels": ["convertedTo"]
+            }
+         ]
+      }
+   },
+   "sidePanels":{
+      "detail":[
+         {
+            "name":"convertedTo",
+            "label":"Converted To",
+            "view": "Record.Panels.Side",
+            "notRefreshable": true,
+            "hidden": true,
+            "options": {
+               "fieldList": ["createdAccount", "createdContact", "createdOpportunity"]
+            }
+         },
+         {
+            "name":"activities",
+            "label":"Activities",
+            "view":"Crm:Record.Panels.Activities"
+         },
+         {
+            "name":"history",
+            "label":"History",
+            "view":"Crm:Record.Panels.History"
+         },
+         {
+            "name":"tasks",
+            "label":"Tasks",
+            "view":"Crm:Record.Panels.Tasks"
+         }
+      ]
+   },
+   "relationshipPanels": {
+      "campaignLogRecords": {
+        "rowActionsView": "Record.RowActions.Empty",
+        "select": false,
+        "create": false
+      },
+      "targetLists": {
+         "create": false,
+         "rowActionsView": "views/record/row-actions/relationship-unlink-only"
+      }
+   },
+   "filterList": [
+      {
+         "name":"active"
+      },
+      {
+         "name":"converted",
+         "style": "success"
+      }
+   ],
+   "boolFilterList": ["onlyMy"]
+}

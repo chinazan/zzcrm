@@ -1,0 +1,58 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "type": {
+            "type": "varchar",
+            "maxLength": 36
+        },
+        "size": {
+            "type": "int",
+            "min": 0
+        },
+        "parent": {
+            "type": "linkParent"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "contents": {
+            "type": "text",
+            "notStorable": true
+        },
+        "role": {
+            "type": "varchar",
+            "maxLength": 36
+        },
+        "global": {
+            "type": "bool",
+            "default": false
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "attachments"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    },
+    "indexes": {
+        "parent": {
+            "columns": ["parentType", "parentId"]
+        }
+    }
+}

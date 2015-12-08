@@ -1,0 +1,11 @@
+{
+    "labels": {
+        "Create Queue": "创建 队列"
+    },
+    "fields": {
+        "status": "status"
+    },
+    "options": {
+        "status": {}
+    }
+}

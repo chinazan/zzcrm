@@ -1,0 +1,45 @@
+.date-title {
+	text-align: center;
+}
+
+.date-title h4 {
+	margin: 10px 0 0;
+}
+
+.fc-event.event-canceled .fc-content {
+	text-decoration: line-through !important;
+}
+
+.fc-time-grid-event .fc-bg {
+	opacity: 0;
+}
+
+.fc-state-default.fc-corner-left {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.fc-state-default.fc-corner-right {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.fc-event {
+	border-radius: 0;
+	background-color: none !important;
+}
+
+.dashlet-body div.calendar {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+	margin-top: -15px;
+}
+
+.fc-event {
+	min-height: 19px;
+}
+
+.fc-day-grid-event .fc-time {
+	font-weight: normal;
+}

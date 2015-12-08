@@ -1,0 +1,26 @@
+{
+    "scopeNames": {
+        "Account": "客户",
+        "Lead": "Lead",
+        "Campaign": "Campaign",
+        "Document": "Document",
+        "Opportunity": "客户追踪",
+        "Ticket": "工单",
+        "Cdr": "通话记录",
+        "Track": "客户追踪模板",
+        "Agent": "分机",
+        "Queue": "队列"
+    },
+    "scopeNamesPlural": {
+        "Account": "客户",
+        "Lead": "潜在客户",
+        "Campaign": "活动",
+        "Document": "知识库",
+        "Opportunity": "客户追踪",
+        "Ticket": "工单",
+        "Cdr": "通话记录",
+        "Track": "客户追踪模板",
+        "Agent": "分机",
+        "Queue": "队列"
+    }
+}

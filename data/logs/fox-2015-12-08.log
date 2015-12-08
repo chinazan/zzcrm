@@ -1,0 +1,1 @@
+[2015-12-08 14:28:23] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[HY000] [2002] No such file or directory at /home/wwwroot/zzcrm/application/Fox/ORM/EntityManager.php:110)"} []

@@ -1,0 +1,259 @@
+[2015-11-26 09:41:06] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[HY000] [2002] No such file or directory at /home/wwwroot/zhcrm/application/Fox/ORM/EntityManager.php:110)"} []
+[2015-11-26 09:41:10] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[HY000] [2002] No such file or directory at /home/wwwroot/zhcrm/application/Fox/ORM/EntityManager.php:110)"} []
+[2015-11-26 14:23:52] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:23:52] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:02] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:02] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:24] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:24:24] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:25:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:25:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:25:17] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:25:17] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:26:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:26:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:26:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:26:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:27:04] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:27:04] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:28:38] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:28:43] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:28:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:28:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:28:57] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:03] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:08] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:13] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:14] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:15] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:16] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:16] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:17] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:23] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:23] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:23] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:36] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:36] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:29:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:30:10] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:30:10] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:30:13] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:30:13] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:48] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:48] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:50] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:31:50] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 14:32:14] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:14] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:42] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:42] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:42] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:32:42] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:01] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:01] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:34:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:48:45] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:48:45] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:02] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:02] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:53] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:59] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:49:59] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:50:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:50:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:50:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 14:50:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 16:50:15] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:50:15] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:51:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:51:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:51:58] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:51:58] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:52:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:52:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:52:43] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:52:43] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:54:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:54:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:31] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:31] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:55:59] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 16:55:59] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:75)"} []
+[2015-11-26 16:56:13] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:13] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:27] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:27] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:41] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:41] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:57] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:57] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:58] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 16:56:58] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.extension_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:00:50] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:00:55] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:00] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:10] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:10] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:25] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:30] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:31] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:39] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:40] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:50] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:52] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:52] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:55] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:01:55] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:11] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:12] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:19] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:19] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:21] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:21] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:26] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:27] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:48] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:03:48] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:04:09] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:04:09] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:20] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:28] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:28] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:05:37] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_id' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:13:44] Fox.ERROR: Json::decode():Syntax error, malformed JSON [] []
+[2015-11-26 17:13:44] Fox.EMERGENCY: Syntax error in application/Fox/Resources/metadata/entityDefs/User.json [] []
+[2015-11-26 17:13:44] Fox.WARNING: E_WARNING: Invalid argument supplied for foreach() {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Metadata.php","line":233} []
+[2015-11-26 17:13:45] Fox.WARNING: E_WARNING: Invalid argument supplied for foreach() {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Database/Orm/Converter.php","line":228} []
+[2015-11-26 17:13:45] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:13:45] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:13:45] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:33] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:33] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:36] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:36] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:51] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:14:51] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.name' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:21:20] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-26 17:21:20] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-26 17:21:23] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => activities
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:23] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/activities?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:23] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => history
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:23] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/history?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:35] Fox.ERROR: API [GET]:/:controller/:id, Params:Array
+(
+    [controller] => Preferences
+    [id] => 1
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:35] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Preferences/1 [] []
+[2015-11-26 17:21:37] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => history
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:37] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => activities
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:37] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/activities?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:37] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/history?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:38] Fox.ERROR: API [GET]:/:controller/:id, Params:Array
+(
+    [controller] => Preferences
+    [id] => 1
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:38] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Preferences/1 [] []
+[2015-11-26 17:21:41] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => activities
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:41] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/activities?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:41] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => history
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:41] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/history?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:44] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => history
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:44] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/history?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:21:44] Fox.ERROR: API [GET]:/Activities/:scope/:id/:name, Params:Array
+(
+    [scope] => User
+    [id] => 1
+    [name] => activities
+)
+, InputData:  -  [] []
+[2015-11-26 17:21:44] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Activities/User/1/activities?maxSize=5&offset=0&sortBy=dateStart&asc=false&where%5B%5D=false [] []
+[2015-11-26 17:38:33] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:38:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:38:35] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:38:43] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:38:43] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:27] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:27] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:54] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:54] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:56] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:56] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:56] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:39:56] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:40:03] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:40:03] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:40:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []
+[2015-11-26 17:40:07] Fox.ERROR: Uncaught exception {"exception":"[object] (PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.agent_type' in 'field list' at /home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php:117)"} []

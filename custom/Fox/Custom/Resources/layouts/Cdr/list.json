@@ -1,0 +1,29 @@
+[
+    {
+        "name": "src"
+    },
+    {
+        "name": "dst"
+    },
+    {
+        "name": "starttime"
+    },
+    {
+        "name": "endtime"
+    },
+    {
+        "name": "answeredtime"
+    },
+    {
+        "name": "dialtime"
+    },
+    {
+        "name": "status"
+    },
+    {
+        "name": "dropType"
+    },
+    {
+        "name": "type"
+    }
+]

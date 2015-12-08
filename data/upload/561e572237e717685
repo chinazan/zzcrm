@@ -1,0 +1,214 @@
+var bodyParser = require('body-parser');
+var multipart = require('connect-multiparty');
+var multipartMiddleware = multipart();
+
+var app = require('express')();
+var http = require('http').Server(app);
+var http_res = require("http");
+
+var io = require('socket.io')(http,
+	{
+		'transports':[
+                'polling',
+                'websocket',
+                'flashsocket',
+                'htmlfile'
+            ]
+	}
+);
+
+app.use(bodyParser.json({limit: '1mb'}));  
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+
+var agents = {};
+
+app.get('/', function(req, res){
+	//res.send('<h1>Welcome Realtime Server</h1>');
+	io.emit('send request', req.query);
+	//socket.broadcast.emit('send request', req.query);
+	console.log(req.query);	
+	res.send('<h1>Welcome Realtime Server</h1>');
+});
+
+app.post('/sendCdr', function(req, res){
+	
+	var variables = req.body.variables;
+	var call_direction = variables.aixun_direction;
+
+	var uuid = variables.uuid;
+	var	sip_from_user = variables.sip_from_user;
+	var	sip_to_user = variables.sip_to_user;
+	var	start_stamp = decodeURIComponent(variables.start_stamp);
+	var	end_stamp = decodeURIComponent(variables.end_stamp);
+	var	duration = variables.duration;
+	var	billsec = variables.billsec;
+
+	var dialstatus = variables.DIALSTATUS;
+	var sip_term_status = variables.sip_term_status;
+
+	if(call_direction == '0'){ //local call
+		var disposition = 'FAILED';
+		if(variables.DIALSTATUS == 'USER_BUSY'){
+			var disposition = 'BUSY';
+		}
+
+		if(variables.DIALSTATUS == 'CANCEL'){
+			var disposition = 'NO ANSWER';
+		}
+
+		if(variables.DIALSTATUS == 'SUCCESS' && billsec > 0){
+			var disposition = 'ANSWERED';
+		}
+
+		if(variables.DIALSTATUS == 'SUCCESS' && billsec == 0){
+			var disposition = 'NO ANSWER';
+		}
+	}
+
+	if(call_direction == '1'){ //incall
+		//if(variables.current_application == 'callcenter' && variables.sip_term_status == '200'){
+		//	res.send('Post Over'); 
+		//	return;
+		//}
+		sip_from_user = variables.aixun_caller_id_number;
+
+		if(duration > 0 && billsec ==0 ){
+			var disposition = 'NO ANSWER';
+			var billsec = 0;
+		}
+		if(billsec >0 ){
+			var disposition = 'ANSWERED';
+		}
+		if(variables.current_application == 'bridge' && variables.cc_queue){
+			var disposition = 'ANSWERED';
+			var sip_from_user = variables.cc_caller_id_number;
+			var sip_to_user = variables.cc_agent.substr(0,4);			
+		}
+
+		if(sip_to_user != undefined && sip_to_user.length > 4){
+			var disposition = 'NO ANSWER';
+			var billsec = 0;
+		}
+		
+		if(variables.dialed_extension != undefined && variables.dialed_extension.length == 4){
+			var sip_to_user = variables.dialed_extension;
+		}
+		
+		if(variables.last_sent_callee_id_number != undefined){
+			var sip_to_user = variables.last_sent_callee_id_number;
+			var disposition = 'ANSWERED';
+			var billsec = variables.billsec-12;
+		}
+
+		if(sip_to_user == undefined && variables.dialed_user != undefined){
+			var sip_to_user = variables.dialed_user;        
+		}
+	}
+
+	if(call_direction == '2'){ //out call
+		var disposition = 'ANSWERED';
+		if(dialstatus == 'RECOVERY_ON_TIMER_EXPIRE' || dialstatus == 'INVALID_GATEWAY'  || dialstatus == 'INCOMPATIBLE_DESTINATION'  ){
+			var disposition = 'FAILED';
+			var billsec = 0;
+		}
+
+		if(dialstatus == 'SUCCESS' && billsec > 0 && variables.hangup_cause == 'ORIGINATOR_CANCEL'){
+			var disposition = 'BUSY';
+			var billsec = 0;
+		}
+
+		if(dialstatus == 'SUCCESS' && billsec == 0 && variables.hangup_cause == 'ORIGINATOR_CANCEL'){
+			var disposition = 'NO ANSWER';
+		}
+
+		if(dialstatus == 'SUCCESS' && variables.bridge_hangup_cause == 'ORIGINATOR_CANCEL'){
+			var disposition = 'NO ANSWER';
+			var billsec = 0;
+		}
+
+		if(sip_from_user == '0000000000'){
+			var current_application_data = variables.current_application_data;
+			var strs = current_application_data.split("/");
+			var sip_from_user = strs['3'];
+		}
+
+	}
+	
+	if(call_direction == '3'){ //local call
+		var disposition = 'FAILED';
+		if(variables.DIALSTATUS == 'USER_BUSY'){
+			var disposition = 'BUSY';
+		}
+
+		if(variables.DIALSTATUS == 'CANCEL'){
+			var disposition = 'NO ANSWER';
+		}
+
+		if(billsec > 0){
+			var disposition = 'ANSWERED';
+		}
+
+		if(billsec == 0){
+			var disposition = 'NO ANSWER';
+		}
+		
+		sip_from_user = variables.aixun_src;
+		sip_to_user = variables.aixun_dst;
+	}
+
+	if(call_direction === undefined ){
+		res.send('Post Over'); 
+		return;
+	}
+	
+	if(sip_from_user == sip_to_user){
+		res.send('Post Over'); 
+		return;
+	}
+
+	var reg = /83\d{2}/;
+	if (reg.test(sip_from_user) || reg.test(sip_to_user) || sip_to_user == '39197373' || sip_to_user == '39197373' ){
+		var apiIp = "121.14.69.17:801";
+	}
+
+	var reg = /84\d{2}/;
+	if (reg.test(sip_from_user) || reg.test(sip_to_user) || sip_to_user == '62309198' || sip_to_user == '02062309198' ){
+		var apiIp = "192.168.7.247:8051";
+	}
+
+	var strUrl = "http://"+apiIp+"/CallRecord.svc/AX_CDRHandler?Source="+sip_from_user+"&Destination="+sip_to_user+"&StartTime="+start_stamp+"&EndTime="+end_stamp+"&Duration="+duration+"&BillableSeconds="+billsec+"&Disposition="+disposition+"&UniqueID="+uuid+"&UserField=/recordings/"+uuid+".mp3&CallType="+call_direction;
+	console.log(strUrl);
+	http_res.get(strUrl, function(res){
+		res.setEncoding("utf-8");
+		var resData = [];
+		res.on("data", function(chunk){
+			resData.push(chunk);
+		})
+		.on("end", function(){
+			console.log(resData.join(""));
+		});
+	});
+	res.send('Post Over');
+	return;
+});
+
+io.on('connection', function(socket){
+	console.log('a user connected');
+	//socket.emit('login');
+	socket.on('login', function(obj){
+		socket.agent=obj.agent;
+		agents[obj.agent] = obj.agent;
+		console.log(agents);
+	});  
+	socket.on('disconnect', function () {
+		delete agents[socket.agent];
+    		socket.broadcast.emit('user disconnected', socket.agent);
+		console.log(agents);
+  	});
+});
+
+http.listen(3000, function(){
+	console.log('listening on *:3000');
+});

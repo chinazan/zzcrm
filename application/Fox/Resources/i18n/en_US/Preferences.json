@@ -1,0 +1,41 @@
+{
+    "fields": {
+        "dateFormat": "日期格式",
+        "timeFormat": "时间格式",
+        "timeZone": "时区",
+        "weekStart": "一周第一天",
+        "thousandSeparator": "Thousand Separator",
+        "decimalMark": "Decimal Mark",
+        "defaultCurrency": "Default Currency",
+        "currencyList": "Currency List",
+        "language": "语言",
+        "smtpServer": "服务器",
+        "smtpPort": "端口",
+        "smtpAuth": "权密钥",
+        "smtpSecurity": "安全",
+        "smtpUsername": "用户名",
+        "emailAddress": "邮箱",
+        "smtpPassword": "密码",
+        "smtpEmailAddress": "邮箱地址",
+        "exportDelimiter": "导出分隔符",
+        "receiveAssignmentEmailNotifications": "接收邮件通知的任务",
+        "autoFollowEntityTypeList": "Auto-Follow",
+        "signature": "邮件签名",
+        "dashboardTabList": "选项卡列表",
+        "defaultReminders": "默认提示"
+    },
+    "links": {
+    },
+    "options": {
+        "weekStart": {
+            "0": "星期日",
+            "1": "星期一"
+        }
+    },
+    "labels": {
+        "Notifications": "通知"
+    },
+    "tooltips": {
+        "autoFollowEntityTypeList": "User will automatically follow all new records of the selected entity types, will see information in the stream and receive notifications."
+    }
+}

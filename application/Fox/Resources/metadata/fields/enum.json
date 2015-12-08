@@ -1,0 +1,35 @@
+{
+   "params":[
+      {
+         "name":"required",
+         "type":"bool",
+         "default":false
+      },
+      {
+         "name":"options",
+         "type":"array",
+         "view": "Admin.FieldManager.Fields.Options"
+      },
+      {
+         "name":"default",
+         "type":"varchar"
+      },
+      {
+         "name":"isSorted",
+         "type":"bool"
+      },
+      {
+         "name":"translation",
+         "type":"varchar",
+         "hidden": true
+      },
+      {
+         "name":"audited",
+         "type":"bool"
+      }
+   ],
+   "filter": true,
+   "fieldDefs":{
+      "type":"varchar"
+   }
+}

@@ -1,0 +1,4 @@
+{
+    "view":"Crm:Dashlets.Cases",
+    "aclScope": "Case"
+}

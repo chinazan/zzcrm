@@ -1,0 +1,44 @@
+{
+    "fields": {
+        "name": "名字",
+        "roles": "角色",
+        "assignmentPermission": "作业许可"
+    },
+    "links": {
+        "users": "用户",
+        "teams": "团队"
+    },
+    "tooltips": {
+        "assignmentPermission": "允许有权限的用户可以分配记录给其他用户.\n\nall - no restriction\n\nteam - can assign users from own teams\n\nno - can assign only to self"
+    },
+    "labels": {
+        "Access": "存取",
+        "Create Role": "创建角色"
+    },
+    "options": {
+        "accessList": {
+            "not-set": "not-set",
+            "enabled": "启用",
+            "disabled": "禁用"
+        },
+        "levelList": {
+            "all": "所有",
+            "team": "团队",
+            "own": "个人",
+            "no": "no"
+        },
+        "assignmentPermission": {
+            "all": "所有",
+            "team": "团队",
+            "not-set": "not-set"
+        }
+    },
+    "actions": {
+        "read": "读",
+        "edit": "编辑",
+        "delete": "删除"
+    },
+    "messages": {
+        "changesAfterClearCache": "All changes in an access control will be applied after cache will be cleared."
+    }
+}

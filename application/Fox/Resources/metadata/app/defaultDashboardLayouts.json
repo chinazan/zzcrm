@@ -1,0 +1,25 @@
+{
+	"Standard": [
+	    {
+	    	"name": "My Fox",
+		    "layout": [
+		    	[
+			        {
+			            "name": "Stream",
+			            "id": "defaultStream"
+			        }
+			    ],
+			    [
+			        {
+			            "name": "Tasks",
+			            "id": "defaultTasks"
+			        },
+			        {
+			            "name": "Activities",
+			            "id": "defailtActivities"
+			        }
+			    ]
+			]
+		}
+	]
+}

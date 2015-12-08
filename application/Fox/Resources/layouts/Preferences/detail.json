@@ -1,0 +1,72 @@
+[
+    {
+        "label": "Locale",
+        "rows": [
+            [{"name": "dateFormat"}, {"name": "timeFormat"}],
+            [{"name": "timeZone"}, {"name": "weekStart"}],
+            [{"name": "defaultCurrency"}, false],
+            [{"name": "thousandSeparator"}, {"name": "decimalMark"}],
+            [{"name": "language"}, false]
+        ]
+    },
+    {
+        "label": "SMTP",
+        "rows": [
+            [
+                {
+                    "name": "smtpEmailAddress"
+                }, false
+            ],
+            [{"name": "smtpServer"}, {"name": "smtpPort"}],
+            [{"name": "smtpAuth"}, {"name": "smtpSecurity"}],
+            [{"name": "smtpUsername"}, {"name": "testSend", "customLabel": null, "view": "Preferences.Fields.TestSend"}],
+            [{"name": "smtpPassword"}, false]
+        ]
+    },
+    {
+        "label": "Misc",
+        "rows": [
+            [{"name": "exportDelimiter"}, {"name":"autoFollowEntityTypeList"}],
+            [
+                {
+                    "name": "signature",
+                    "params": {
+                        "height": 70,
+                        "toolbar": [
+                            ["style", ["bold", "italic", "underline", "clear"]],
+                            ["color", ["color"]],
+                            ["height", ["height"]],
+                            ["misc",["codeview"]]
+                        ]
+                    }
+                },
+                {
+                    "name": "defaultReminders"
+                }
+            ],
+            [
+                {"name":"theme"},
+                false
+            ]
+        ]
+    },
+    {
+        "label": "User Interface",
+        "rows": [
+            [
+                {"name":"theme"},
+                false
+            ],
+            [
+                {"name":"useCustomTabList"},
+                {"name":"tabList"}
+            ]
+        ]
+    },
+    {
+        "label": "Notifications",
+        "rows": [
+            [{"name": "receiveAssignmentEmailNotifications"}, false]
+        ]
+    }
+]

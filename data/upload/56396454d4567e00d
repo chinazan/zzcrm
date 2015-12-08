@@ -1,0 +1,4 @@
+id;name;website;emailAddress;phoneNumber;type;industry;sicCode;billingAddressStreet;billingAddressCity;billingAddressState;billingAddressCountry;billingAddressPostalCode;shippingAddressStreet;shippingAddressCity;shippingAddressState;shippingAddressCountry;shippingAddressPostalCode;description;createdAt;test;campaignId;createdById;createdByName;assignedUserId;assignedUserName
+561e57eaad4707547;test;;;;;;;;;;;;;;;;;;"2015-10-14 13:26:02";;;1;Admin;1;Admin
+563729d8d4b709bd8;2222222;;;;;;;;;;;;;;;;;;"2015-11-02 09:16:08";;;1;Admin;1;Admin
+563879fdc8bd07825;test222;;;;;;;;;;;;;;;;;;"2015-11-03 09:10:21";;;1;Admin;1;Admin

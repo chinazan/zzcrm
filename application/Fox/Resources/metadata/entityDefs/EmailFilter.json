@@ -1,0 +1,67 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 100,
+            "tooltip": true
+        },
+        "from": {
+            "type": "varchar",
+            "maxLength": 255,
+            "tooltip": true
+        },
+        "to": {
+            "type": "varchar",
+            "maxLength": 255,
+            "tooltip": true
+        },
+        "subject": {
+            "type": "varchar",
+            "maxLength": 255,
+            "tooltip": true
+        },
+        "bodyContains": {
+            "type": "array",
+            "tooltip": true
+        },
+        "parent": {
+            "type": "linkParent",
+            "tooltip": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "parent": {
+            "type": "belongsToParent",
+            "entityList": ["EmailAccount", "InboundEmail"]
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    }
+}

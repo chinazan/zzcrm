@@ -1,0 +1,12 @@
+[
+    {
+        "label":"",
+        "rows": [
+            [{"name":"name","fullWidth":2}],
+            [{"name":"userName","fullWidth":2}],
+            [{"name":"teams","fullWidth":2}, {"name":"isAdmin","fullWidth":2}],
+            [{"name":"emailAddress","fullWidth":2}],
+            [{"name":"phoneNumber","fullWidth":2}]
+        ]
+    }
+]

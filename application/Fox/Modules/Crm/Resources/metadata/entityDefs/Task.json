@@ -1,0 +1,145 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Not Started", "Started", "Completed", "Canceled", "Deferred"],
+            "view": "Fields.EnumStyled",
+            "style": {
+                "Completed": "success"
+            },
+            "default": "Not Started",
+            "audited": true
+        },
+        "priority": {
+            "type": "enum",
+            "options": ["Low", "Normal", "High", "Urgent"],
+            "default": "Normal",
+            "audited": true
+        },
+        "dateStart": {
+            "type": "datetimeOptional",
+            "before": "dateEnd"
+        },
+        "dateEnd": {
+            "type": "datetimeOptional",
+            "after": "dateStart",
+            "view": "Crm:Task.Fields.DateEnd",
+            "audited": true
+        },
+        "dateStartDate": {
+            "type": "date",
+            "disabled": true
+        },
+        "dateEndDate": {
+            "type": "date",
+            "disabled": true
+        },
+        "dateCompleted": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "isOverdue": {
+            "type": "bool",
+            "readOnly": true,
+            "notStorable": true,
+            "view": "Crm:Task.Fields.IsOverdue",
+            "disabled": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "parent": {
+            "type": "linkParent",
+            "entityList": ["Account", "Contact", "Lead", "Opportunity", "Case"]
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true
+        },
+        "teams": {
+            "type": "linkMultiple"
+        },
+        "attachments": {
+            "type": "attachmentMultiple"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "tasks"
+        },
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    },
+    "indexes": {
+        "dateStartStatus": {
+            "columns": ["dateStart", "status"]
+        },
+        "dateEndStatus": {
+            "columns": ["dateEnd", "status"]
+        },
+        "dateStart": {
+            "columns": ["dateStart", "deleted"]
+        },
+        "dateEnd": {
+            "columns": ["dateStart", "deleted"]
+        },
+        "status": {
+            "columns": ["status", "deleted"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        },
+        "assignedUserStatus": {
+            "columns": ["assignedUserId", "status"]
+        }
+    }
+}

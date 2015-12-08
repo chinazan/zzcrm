@@ -1,0 +1,14 @@
+{
+   "params":[
+      {
+         "name":"link",
+         "type":"varchar"
+      },
+      {
+         "name":"field",
+         "type":"varchar"
+      }
+   ],
+   "filter": true,
+   "notCreatable": true
+}

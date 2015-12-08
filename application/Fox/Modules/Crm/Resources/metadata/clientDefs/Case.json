@@ -1,0 +1,42 @@
+{
+   "controller": "controllers/record",
+   "recordViews": {
+      "detail": "crm:views/case/record/detail"
+   },
+   "bottomPanels":{
+      "detail":[
+      ]
+   },
+   "sidePanels":{
+      "detail":[
+         {
+            "name":"activities",
+            "label":"Activities",
+            "view":"Crm:Case.Record.Panels.Activities"
+         },
+         {
+            "name":"history",
+            "label":"History",
+            "view":"Crm:Record.Panels.History"
+         },
+         {
+            "name":"tasks",
+            "label":"Tasks",
+            "view":"Crm:Record.Panels.Tasks"
+         }
+      ]
+   },
+   "filterList": [
+      {
+         "name":"open"
+      },
+      {
+         "name":"closed",
+         "style": "success"
+      }
+   ],
+   "boolFilterList": ["onlyMy"],
+   "selectDefaultFilters": {
+      "filter": "open"
+   }
+}

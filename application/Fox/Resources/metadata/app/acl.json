@@ -1,0 +1,72 @@
+{
+    "solid": {
+        "User": {
+            "read": "all",
+            "edit": "no",
+            "delete": "no"
+        },
+        "Team": {
+            "read": "all",
+            "edit": "no",
+            "delete": "no"
+        },
+        "Note": {
+            "read": "all",
+            "edit": "own",
+            "delete": "own"
+        },
+        "EmailAddress": {
+            "read": "no",
+            "edit": "no",
+            "delete": "no"
+        },
+        "Attachment": {
+            "read": "own",
+            "edit": "own",
+            "delete": "own"
+        },
+        "PhoneNumber": {
+            "read": "no",
+            "edit": "no",
+            "delete": "no"
+        },
+        "EmailAccount": {
+            "read": "own",
+            "edit": "own",
+            "delete": "own"
+        },
+        "EmailFilter": {
+            "read": "own",
+            "edit": "own",
+            "delete": "own"
+        },
+        "Role": false
+    },
+    "defaults": {
+        "boolean": true,
+        "recordAllTeamOwnNo": {
+            "read": "all",
+            "edit": "all",
+            "delete": "no"
+        },
+        "recordAllOwnNo": {
+            "read": "all",
+            "edit": "all",
+            "delete": "no"
+        },
+        "recordAllTeamNo": {
+            "read": "all",
+            "edit": "all",
+            "delete": "no"
+        },
+        "recordAllNo": {
+            "read": "all",
+            "edit": "all",
+            "delete": "no"
+        }
+    },
+    "valueDefaults": {
+        "assignmentPermission": "all",
+        "userPermission": "no"
+    }
+}

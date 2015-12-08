@@ -1,0 +1,68 @@
+{
+   "controller": "controllers/record",
+   "boolFilterList": ["onlyMy"],
+   "sidePanels":{
+      "detail":[
+         {
+            "name":"optedOut",
+            "label":"Opted Out",
+            "view":"Crm:TargetList.Record.Panels.OptedOut"
+         }
+      ]
+   },
+   "relationshipPanels": {
+      "contacts": {
+         "actionList": [
+            {
+               "label": "Unlink All",
+               "action": "unlinkAllRelated",
+               "acl": "edit",
+               "data": {
+                  "link": "contacts"
+               }
+            }
+         ],
+         "rowActionsView": "views/record/row-actions/relationship-no-remove"
+      },
+      "leads": {
+         "actionList": [
+            {
+               "label": "Unlink All",
+               "action": "unlinkAllRelated",
+               "acl": "edit",
+               "data": {
+                  "link": "leads"
+               }
+            }
+         ],
+         "rowActionsView": "views/record/row-actions/relationship-no-remove"
+      },
+      "accounts": {
+         "actionList": [
+            {
+               "label": "Unlink All",
+               "action": "unlinkAllRelated",
+               "acl": "edit",
+               "data": {
+                  "link": "accounts"
+               }
+            }
+         ],
+         "rowActionsView": "views/record/row-actions/relationship-no-remove"
+      },
+      "users": {
+         "create": false,
+         "actionList": [
+            {
+               "label": "Unlink All",
+               "action": "unlinkAllRelated",
+               "acl": "edit",
+               "data": {
+                  "link": "users"
+               }
+            }
+         ],
+         "rowActionsView": "views/record/row-actions/relationship-no-remove"
+      }
+   }
+}

@@ -1,0 +1,186 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true
+        },
+        "teams": {
+            "type": "linkMultiple"
+        },
+        "src": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "dst": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "ringTime": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "uniqueid": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "listid": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "campaignid": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "status": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "phoneNumber": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "agent": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "dropType": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "group": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "answeredtime": {
+            "type": "int",
+            "required": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "dialtime": {
+            "type": "int",
+            "required": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "starttime": {
+            "notNull": false,
+            "type": "datetime",
+            "required": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "endtime": {
+            "notNull": false,
+            "type": "datetime",
+            "required": false,
+            "audited": false,
+            "isCustom": true
+        },
+        "type": {
+            "type": "enum",
+            "required": false,
+            "isSorted": false,
+            "audited": false,
+            "isCustom": true,
+            "options": [
+                "in",
+                "out"
+            ]
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "EntityTeam",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "sortBy": "createdAt",
+        "asc": false
+    },
+    "indexes": {
+        "name": {
+            "columns": [
+                "name",
+                "deleted"
+            ]
+        },
+        "assignedUser": {
+            "columns": [
+                "assignedUserId",
+                "deleted"
+            ]
+        }
+    }
+}

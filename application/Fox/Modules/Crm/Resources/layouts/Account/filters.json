@@ -1,0 +1,9 @@
+[
+	"assignedUser",
+	"billingAddress",
+	"createdAt",
+	"emailAddress",
+	"industry",
+    "phoneNumber",
+	"type"
+]

@@ -1,0 +1,22 @@
+{
+   "params":[
+      {
+         "name":"required",
+         "type":"bool",
+         "default":false
+      },
+      {
+         "name":"default",
+         "type":"text"
+      },
+      {
+         "name":"maxLength",
+         "type":"int"
+      },
+      {
+         "name":"seeMoreDisabled",
+         "type":"bool"
+      }
+   ],
+   "filter": true
+}

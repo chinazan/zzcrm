@@ -1,0 +1,19 @@
+{
+    "collection": {
+        "sortBy": "name",
+        "asc": true
+    },
+    "fields": {
+        "description": {
+            "type": "text",
+            "required": false,
+            "seeMoreDisabled": false
+        },
+        "billingAddress": {
+            "type": "varchar",
+            "required": false,
+            "trim": false,
+            "audited": false
+        }
+    }
+}

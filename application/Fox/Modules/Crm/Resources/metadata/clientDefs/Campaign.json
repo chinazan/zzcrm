@@ -1,0 +1,74 @@
+{
+    "controller": "controllers/record",
+    "menu": {
+        "list": {
+            "buttons": [
+                {
+                    "label": "Target Lists",
+                    "link": "#TargetList",
+                    "acl": "read",
+                    "style": "default",
+                    "aclScope": "TargetList"
+                }
+            ]
+        }
+    },
+    "recordViews": {
+      "detail": "Crm:Campaign.Record.Detail"
+    },
+    "views": {
+      "detail": "crm:views/campaign/detail"
+    },
+    "sidePanels":{
+      "detail":[
+         {
+            "name":"statistics",
+            "label":"Statistics",
+            "view":"Crm:Campaign.Record.Panels.Statistics"
+         }
+      ]
+    },
+    "relationshipPanels": {
+      "campaignLogRecords": {
+        "view": "Crm:Campaign.Record.Panels.CampaignLogRecords",
+        "layout": "listForCampaign",
+        "rowActionsView": "views/record/row-actions/remove-only",
+        "select": false,
+        "create": false
+      }
+    },
+    "filterList": [
+      "active"
+   ],
+   "formDependency": {
+      "type": {
+         "map": {
+            "Email": [
+               {
+                  "action": "show",
+                  "fields": ["targetLists"]
+               }
+            ],
+            "Newsletter": [
+               {
+                  "action": "show",
+                  "fields": ["targetLists"]
+               }
+            ],
+            "Mail": [
+               {
+                  "action": "show",
+                  "fields": ["targetLists"]
+               }
+            ]
+         },
+         "default": [
+            {
+               "action": "hide",
+               "fields": ["targetLists"]
+            }
+         ]
+      }
+   },
+   "boolFilterList": ["onlyMy"]
+}

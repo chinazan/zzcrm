@@ -1,0 +1,57 @@
+{
+    "controller": "controllers/record",
+    "views":{
+        "detail":"Crm:Call.Detail"
+    },
+    "recordViews":{
+        "list":"Crm:Call.Record.List",
+        "detail":"Crm:Meeting.Record.Detail"
+    },
+    "sidePanels":{
+        "detail":[
+            {
+                "name":"attendees",
+                "label":"Attendees",
+                "view":"crm:views/meeting/record/panels/attendees",
+                "sticked": true
+            }
+        ],
+        "detailSmall":[
+            {
+                "name":"attendees",
+                "label":"Attendees",
+                "view":"crm:views/meeting/record/panels/attendees",
+                "sticked": true
+            }
+        ],
+        "edit":[
+            {
+                "name":"attendees",
+                "label":"Attendees",
+                "view":"crm:views/meeting/record/panels/attendees",
+                "sticked": true
+            }
+        ],
+        "editSmall":[
+            {
+                "name":"attendees",
+                "label":"Attendees",
+                "view":"crm:views/meeting/record/panels/attendees",
+                "sticked": true
+            }
+        ]
+    },
+    "filterList": [
+        {
+            "name":"planned"
+        },
+        {
+            "name":"held",
+            "style": "success"
+        },
+        {
+            "name":"todays"
+        }
+    ],
+    "boolFilterList": ["onlyMy"]
+}

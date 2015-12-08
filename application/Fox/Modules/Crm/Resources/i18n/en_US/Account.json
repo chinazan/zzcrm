@@ -1,0 +1,76 @@
+{
+    "fields": {
+        "name": "姓名",
+        "emailAddress": "Email",
+        "website": "网址",
+        "phoneNumber": "电话",
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "description": "Description",
+        "sicCode": "Sic Code",
+        "industry": "来源",
+        "type": "类型",
+        "contactRole": "Title",
+        "campaign": "Campaign"
+    },
+    "links": {
+        "contacts": "Contacts",
+        "opportunities": "客户追踪",
+        "cases": "Cases",
+        "documents": "Documents",
+        "meetingsPrimary": "Meetings (expanded)",
+        "callsPrimary": "Calls (expanded)",
+        "tasksPrimary": "Tasks (expanded)",
+        "emailsPrimary": "Emails (expanded)",
+        "targetLists": "Target Lists",
+        "campaignLogRecords": "Campaign Log",
+        "campaign": "Campaign"
+    },
+    "options": {
+        "type": {
+            "Customer": "Customer",
+            "Investor": "Investor",
+            "Partner": "Partner",
+            "Reseller": "Reseller"
+        },
+        "industry": {
+            "Agriculture": "Agriculture",
+            "Advertising": "Advertising",
+            "Apparel & Accessories": "Apparel & Accessories",
+            "Automotive": "Automotive",
+            "Banking": "Banking",
+            "Biotechnology": "Biotechnology",
+            "Chemical": "Chemical",
+            "Computer": "Computer",
+            "Education": "Education",
+            "Electronics": "Electronics",
+            "Energy": "Energy",
+            "Entertainment & Leisure": "Entertainment & Leisure",
+            "Finance": "Finance",
+            "Food & Beverage": "Food & Beverage",
+            "Grocery": "Grocery",
+            "Healthcare": "Healthcare",
+            "Insurance": "Insurance",
+            "Legal": "Legal",
+            "Manufacturing": "Manufacturing",
+            "Publishing": "Publishing",
+            "Real Estate": "Real Estate",
+            "Service": "Service",
+            "Sports": "Sports",
+            "Software": "Software",
+            "Technology": "Technology",
+            "Telecommunications": "Telecommunications",
+            "Television": "Television",
+            "Transportation": "Transportation",
+            "Venture Capital": "Venture Capital"
+        }
+    },
+    "labels": {
+        "Create Account": "创建客户",
+        "Copy Billing": "Copy Billing"
+    },
+    "presetFilters": {
+        "customers": "Customers",
+        "partners": "Partners"
+    }
+}

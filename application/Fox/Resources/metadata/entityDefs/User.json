@@ -1,0 +1,159 @@
+{
+    "fields": {
+        "isAdmin": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "userName": {
+            "type": "varchar",
+            "maxLength": 50,
+            "required": true,
+            "view": "User.Fields.UserName",
+            "tooltip": true
+        },
+        "name": {
+            "type": "personName",
+            "view": "User.Fields.Name"
+        },
+        "password": {
+            "type": "password",
+            "maxLength": 150,
+            "internal": true,
+            "disabled": true
+        },
+        "salutationName": {
+            "type": "enum",
+            "options": ["", "Mr.", "Mrs.", "Ms.", "Dr."]
+        },
+        "firstName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "default":""
+        },
+        "lastName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true,
+            "default":""
+        },
+        "isActive": {
+            "type": "bool",
+            "tooltip": true,
+            "default": true
+        },
+        "isSuperAdmin": {
+            "type": "bool",
+            "default": false,
+            "disabled": true
+        },
+        "title": {
+            "type": "varchar",
+            "maxLength": 100
+        },
+        "emailAddress": {
+            "type": "email",
+            "required": false
+        },
+        "phoneNumber": {
+            "type": "phone",
+            "typeList": ["Mobile", "Office", "Home", "Fax", "Other"],
+            "defaultType": "Mobile"
+        },
+        "token": {
+            "type": "varchar",
+            "notStorable": true,
+            "disabled": true
+        },
+        "defaultTeam": {
+            "type": "link",
+            "tooltip": true
+        },
+        "acceptanceStatus": {
+            "type": "varchar",
+            "notStorable": true,
+            "disabled": true
+        },
+        "teamRole": {
+            "type": "varchar",
+            "notStorable": true,
+            "disabled": true
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "tooltip": true,
+            "columns": {
+                "role": "userRole"
+            },
+            "view": "User.Fields.Teams"
+        },
+        "roles": {
+            "type": "linkMultiple",
+            "tooltip": true
+        },
+        "avatar": {
+            "type": "image",
+            "view": "User.Fields.Avatar",
+            "previewSize": "small"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "agent": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "defaultTeam": {
+            "type": "belongsTo",
+            "entity": "Team"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "foreign": "users",
+            "additionalColumns": {
+                "role": {
+                    "type": "varchar",
+                    "len": 100
+                }
+            },
+            "layoutRelationshipsDisabled": true
+        },
+        "roles": {
+            "type": "hasMany",
+            "entity": "Role",
+            "foreign": "users",
+            "layoutRelationshipsDisabled": true
+        },
+        "preferences": {
+            "type": "hasOne",
+            "entity": "Preferences"
+        },
+        "meetings": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "users"
+        },
+        "calls": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "users"
+        },
+        "emails": {
+            "type": "hasMany",
+            "entity": "Email",
+            "foreign": "users"
+        },
+        "agent": {
+            "type": "belongsTo",
+            "entity": "Agent",
+            "foreign": "users"
+        }
+    },
+    "collection": {
+        "sortBy": "userName",
+        "asc": true,
+        "textFilterFields": ["name", "userName"]
+    }
+}

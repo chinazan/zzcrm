@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "name": "Asunto",
+        "status": "Estado",
+        "job": "Trabajo",
+        "scheduling": "Programación (crontab anotación)"
+    },
+    "links": {
+        "log": "Registro de Log"
+    },
+    "labels": {
+        "Create ScheduledJob": "Crear Tarea programado"
+    },
+    "options": {
+        "job": {
+            "CheckInboundEmails": "Comprobar Correos Entrantes",
+            "Cleanup": "Limpiar"
+        },
+        "cronSetup": {
+            "linux": "Nota: Añada esta línea al archivo crontab para ejecutar trabajos Fox programados:",
+            "mac": "Nota: Añada esta línea al archivo crontab para ejecutar trabajos Fox programados:",
+            "windows": "Nota: Crear un archivo por lotes con los siguientes comandos para ejecutar trabajos programados de Fox usando tareas programadas de Windows:",
+            "default": "Nota: Agregar este comando a Cron Job (Tarea Programada):"
+        },
+        "status": {
+            "Active": "Activo",
+            "Inactive": "Inactivo"
+        }
+    }
+}

@@ -1,0 +1,120 @@
+[2015-11-30 09:52:35] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:37] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:37] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:37] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:37] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:37] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:38] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:38] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:38] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:52:38] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:53:19] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 09:53:47] Fox.ERROR: E_RECOVERABLE_ERROR: Object of class Fox\Custom\Entities\Cdr could not be converted to string {"file":"/home/wwwroot/zhcrm/application/Fox/Core/Utils/Api/Output.php","line":41} []
+[2015-11-30 10:22:29] Fox.ERROR: API [POST]:/:controller, Params:Array
+(
+    [controller] => Account
+)
+, InputData: {"assignedUserId":"1","assignedUserName":"Admin","type":"","industry":"","name":"32323","phoneNumberData":[],"phoneNumber":null,"website":"","address":"","billingAddress":"","campaignName":null,"campaignId":null,"emailAddressData":[],"emailAddress":null,"description":"","teamsIds":[],"teamsNames":{}} - {"reason":"Duplicate","data":{"564ebb8c164a941dc":"32323"}} [] []
+[2015-11-30 10:22:29] Fox.ERROR: Display Error: {"reason":"Duplicate","data":{"564ebb8c164a941dc":"32323"}}, Code: 409 URL: /api/v1/Account [] []
+[2015-11-30 11:02:01] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => updateAgentStatus
+)
+, InputData:  - Action 'updateAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:02:01] Fox.ERROR: Display Error: Action 'updateAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/updateAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:02:32] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => updateAgentStatus
+)
+, InputData:  - Action 'updateAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:02:32] Fox.ERROR: Display Error: Action 'updateAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/updateAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:02:43] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => updateAgentStatus
+)
+, InputData:  - Action 'updateAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:02:43] Fox.ERROR: Display Error: Action 'updateAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/updateAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:03:14] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => putAgentStatus
+)
+, InputData:  - Action 'putAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:03:14] Fox.ERROR: Display Error: Action 'putAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/putAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:03:22] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => putAgentStatus
+)
+, InputData:  - Action 'putAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:03:22] Fox.ERROR: Display Error: Action 'putAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/putAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:09:11] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => putAgentStatus
+)
+, InputData:  - Action 'putAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:09:11] Fox.ERROR: Display Error: Action 'putAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/putAgentStatus?src=10002&status=dial [] []
+[2015-11-30 11:10:44] Fox.ERROR: API [GET]:/:controller/action/:action, Params:Array
+(
+    [controller] => Agent
+    [action] => putAgentStatus
+)
+, InputData:  - Action 'putAgentStatus' (GET) does not exist in controller 'Agent' [] []
+[2015-11-30 11:10:44] Fox.ERROR: Display Error: Action 'putAgentStatus' (GET) does not exist in controller 'Agent', Code: 404 URL: /api/v1/Agent/action/putAgentStatus?src=10002&status=dial [] []
+[2015-11-30 14:45:27] Fox.ERROR: E_RECOVERABLE_ERROR: Argument 1 passed to Fox\Services\Team::afterUpdate() must be an instance of Fox\Services\Entity, instance of Fox\Entities\Team given, called in /home/wwwroot/zhcrm/application/Fox/Services/Record.php on line 534 and defined {"file":"/home/wwwroot/zhcrm/application/Fox/Services/Team.php","line":24} []
+[2015-11-30 14:45:27] Fox.WARNING: E_WARNING: Missing argument 1 for Fox\Services\Team::clearRolesCache(), called in /home/wwwroot/zhcrm/application/Fox/Services/Team.php on line 28 and defined {"file":"/home/wwwroot/zhcrm/application/Fox/Services/Team.php","line":32} []
+[2015-11-30 14:47:47] Fox.ERROR: E_RECOVERABLE_ERROR: Argument 1 passed to Fox\Services\Team::afterUpdate() must be an instance of Fox\Services\Entity, instance of Fox\Entities\Team given, called in /home/wwwroot/zhcrm/application/Fox/Services/Record.php on line 534 and defined {"file":"/home/wwwroot/zhcrm/application/Fox/Services/Team.php","line":24} []
+[2015-11-30 14:47:47] Fox.WARNING: E_WARNING: Missing argument 1 for Fox\Services\Team::clearRolesCache(), called in /home/wwwroot/zhcrm/application/Fox/Services/Team.php on line 28 and defined {"file":"/home/wwwroot/zhcrm/application/Fox/Services/Team.php","line":32} []
+[2015-11-30 14:48:45] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:48:45] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:48:48] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:48:48] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:49:53] Fox.ERROR: API [POST]:/:controller/:id/:link, Params:Array
+(
+    [controller] => Team
+    [id] => 565bf0650f1a73340
+    [link] => users
+)
+, InputData: {"ids":["1"]} -  [] []
+[2015-11-30 14:49:53] Fox.ERROR: Display Error: , Code: 403 URL: /api/v1/Team/565bf0650f1a73340/users [] []
+[2015-11-30 14:50:16] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:50:16] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:50:19] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:50:19] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:51:26] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:51:26] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:51:29] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 14:51:29] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 16:02:36] Fox.ERROR: API [GET]:/:controller/:id, Params:Array
+(
+    [controller] => Lead
+    [id] => [object Object]
+)
+, InputData:  -  [] []
+[2015-11-30 16:02:36] Fox.ERROR: Display Error: , Code: 404 URL: /api/v1/Lead/%5Bobject%20Object%5D [] []
+[2015-11-30 17:28:30] Fox.ERROR: API [GET]:/:controller, Params:Array
+(
+    [controller] => AgentStatus
+)
+, InputData:  - Controller 'AgentStatus' is not found [] []
+[2015-11-30 17:28:30] Fox.ERROR: Display Error: Controller 'AgentStatus' is not found, Code: 404 URL: /api/v1/AgentStatus?maxSize=20&offset=0&sortBy=id&asc= [] []
+[2015-11-30 17:29:51] Fox.ERROR: API [GET]:/:controller, Params:Array
+(
+    [controller] => AgentStatus
+)
+, InputData:  - Controller 'AgentStatus' is not found [] []
+[2015-11-30 17:29:51] Fox.ERROR: Display Error: Controller 'AgentStatus' is not found, Code: 404 URL: /api/v1/AgentStatus?maxSize=20&offset=0&sortBy=id&asc= [] []
+[2015-11-30 17:31:06] Fox.WARNING: E_WARNING: Invalid argument supplied for foreach() {"file":"/home/wwwroot/zhcrm/application/Fox/Core/ORM/Repositories/RDB.php","line":61} []
+[2015-11-30 17:31:06] Fox.ERROR: E_RECOVERABLE_ERROR: Argument 1 passed to Fox\ORM\DB\Mapper::select() must implement interface Fox\ORM\IEntity, null given, called in /home/wwwroot/zhcrm/application/Fox/ORM/Repositories/RDB.php on line 161 and defined {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Mapper.php","line":106} []
+[2015-11-30 18:30:52] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:30:52] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:31:09] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:31:09] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:31:39] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:31:39] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:32:09] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []
+[2015-11-30 18:32:09] Fox.WARNING: E_WARNING: Illegal offset type in isset or empty {"file":"/home/wwwroot/zhcrm/application/Fox/ORM/DB/Query/Base.php","line":305} []

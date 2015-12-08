@@ -1,0 +1,55 @@
+{
+    "id": "1",
+    "timeZone": "Asia\/Shanghai",
+    "dateFormat": "YYYY-MM-DD",
+    "timeFormat": "HH:mm",
+    "weekStart": 1,
+    "thousandSeparator": ",",
+    "decimalMark": ".",
+    "defaultCurrency": "USD",
+    "dashboardLayout": [
+        {
+            "name": "My Fox",
+            "layout": [
+                [
+                    {
+                        "name": "SalesPipeline",
+                        "id": "d840769"
+                    },
+                    {
+                        "name": "Calls",
+                        "id": "d885395"
+                    }
+                ],
+                [
+                    {
+                        "name": "Calendar",
+                        "id": "d725746"
+                    },
+                    {
+                        "name": "Tasks",
+                        "id": "defaultTasks"
+                    }
+                ]
+            ]
+        }
+    ],
+    "dashletOptions": {},
+    "presetFilters": {
+        "Account": []
+    },
+    "smtpServer": "",
+    "smtpPort": 25,
+    "smtpAuth": false,
+    "smtpSecurity": "",
+    "language": "en_US",
+    "exportDelimiter": ";",
+    "receiveAssignmentEmailNotifications": true,
+    "signature": "",
+    "defaultReminders": [],
+    "theme": "FoxVertical",
+    "useCustomTabList": false,
+    "tabList": [
+        "Account"
+    ]
+}

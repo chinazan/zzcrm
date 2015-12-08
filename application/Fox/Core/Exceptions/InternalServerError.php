@@ -1,0 +1,8 @@
+<?php
+namespace Fox\Core\Exceptions;
+
+class InternalServerError extends \Exception
+{
+    protected $code = 500;
+
+}
