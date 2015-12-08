@@ -40,6 +40,7 @@
             ],
             "isSorted": false,
             "audited": false,
+            "view": "Crm:Agent.Fields.Status",
             "isCustom": true
         },
         "user": {
